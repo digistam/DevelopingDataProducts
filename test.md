@@ -1,7 +1,7 @@
 Graph Explorer
 ========================================================
 author: Mark Stam
-date: Fri Aug 15 20:24:10 2014
+date: Fri Aug 15 20:25:55 2014
 transition:rotate
 font-family: 'Trebuchet MS'
 
@@ -37,4 +37,4 @@ Download
 
 Download Graph Explorer at:
 
-- https://github.com/digistam/ShinyProject
+- https://github.com/digistam/ShinyProject/tree/master/GraphExplorer
