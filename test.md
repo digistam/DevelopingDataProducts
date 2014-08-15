@@ -1,7 +1,7 @@
 Graph Explorer
 ========================================================
 author: Mark Stam
-date: Fri Aug 15 19:31:48 2014
+date: Fri Aug 15 19:38:22 2014
 transition:rotate
 font-family: 'Trebuchet MS'
 
@@ -11,9 +11,9 @@ Contents
 For more details on authoring R presentations click the
 **Help** button on the toolbar.
 
-- Bullet 1
-- Bullet 2 
-- Bullet 3
+- Eerste bullet
+- Tweede bullet 
+- Derde bullet
 
 Social Network Analysis
 ========================================================
