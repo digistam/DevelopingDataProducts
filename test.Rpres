@@ -5,16 +5,6 @@ date: `r date()`
 transition:rotate
 font-family: 'Trebuchet MS'
 
-Contents
-========================================================
-
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
-
-- Eerste bullet
-- Tweede bullet 
-- Derde bullet
-
 Social Network Analysis
 ========================================================
 Social network analysis (SNA) is the use of network theory to analyse social networks. Social network analysis views social relationships in terms of network theory, consisting of nodes, representing individual actors within the network. These networks are often depicted in a social network diagram, where nodes are represented as points and ties are represented as lines...
@@ -35,6 +25,18 @@ set.seed(111)
 layout1 <- layout.fruchterman.reingold(g)
 plot(g, layout = layout1)
 ```
+
+Contents
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Eerste bullet
+- Tweede bullet 
+- Derde bullet
+
+
 
 Graph information
 ========================================================
