@@ -7,7 +7,9 @@ font-family: 'Trebuchet MS'
 
 Social Network Analysis
 ========================================================
-Social network analysis (SNA) is the use of network theory to analyse social networks. Social network analysis views social relationships in terms of network theory, consisting of nodes, representing individual actors within the network. These networks are often depicted in a social network diagram, where nodes are represented as points and ties are represented as lines...
+Social network analysis (SNA) is the use of network theory to analyse social networks. Social network analysis views social relationships in terms of network theory, consisting of nodes, representing individual actors within the network. These networks are often depicted in a Graph, where nodes are represented as points and edges are represented as lines...
+Example Graph
+========================================================
 
 ```{r, echo=FALSE}
 if (!require("igraph")) {
@@ -25,19 +27,6 @@ set.seed(111)
 layout1 <- layout.fruchterman.reingold(g)
 plot(g, layout = layout1)
 ```
-
-Contents
-========================================================
-
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
-
-- Eerste bullet
-- Tweede bullet 
-- Derde bullet
-
-
-
 Graph information
 ========================================================
 The Graph explorer will show some important details about the network,
@@ -51,6 +40,19 @@ ddf <- as.data.frame(ddf)
 names(ddf) <- c('degree rank') 
 ddf
 ```
+Contents
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Eerste bullet
+- Tweede bullet 
+- Derde bullet
+
+
+
+
 
 
 
