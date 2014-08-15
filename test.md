@@ -1,7 +1,7 @@
-Graph Explorer presentation
+Graph Explorer
 ========================================================
 author: Mark Stam
-date: Fri Aug 15 19:30:34 2014
+date: Fri Aug 15 19:31:48 2014
 transition:rotate
 font-family: 'Trebuchet MS'
 
