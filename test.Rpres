@@ -17,7 +17,7 @@ For more details on authoring R presentations click the
 
 Social Network Analysis
 ========================================================
-Social network analysis (SNA) is the use of network theory to analyse social networks. Social network analysis views social relationships in terms of network theory, consisting of nodes, representing individual actors within the network. These networks are often depicted in a social network diagram, where nodes are represented as points and ties are represented as lines.
+Social network analysis (SNA) is the use of network theory to analyse social networks. Social network analysis views social relationships in terms of network theory, consisting of nodes, representing individual actors within the network. These networks are often depicted in a social network diagram, where nodes are represented as points and ties are represented as lines...
 
 ```{r, echo=FALSE}
 if (!require("igraph")) {
