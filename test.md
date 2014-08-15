@@ -1,7 +1,7 @@
 Graph Explorer
 ========================================================
 author: Mark Stam
-date: Fri Aug 15 20:19:35 2014
+date: Fri Aug 15 20:24:10 2014
 transition:rotate
 font-family: 'Trebuchet MS'
 
@@ -32,27 +32,9 @@ Mickey           3
 Donald           2
 Goofy            2
 ```
-Contents
+Download
 ========================================================
 
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
+Download Graph Explorer at:
 
-- Eerste bullet
-- Tweede bullet 
-- Derde bullet
-
-
-
-
-
-
-
-Slide With Plot
-========================================================
-
-![plot of chunk unnamed-chunk-4](test-figure/unnamed-chunk-4.png) 
-
-Graph example
-========================================================
-![plot of chunk unnamed-chunk-5](test-figure/unnamed-chunk-5.png) 
+- https://github.com/digistam/ShinyProject

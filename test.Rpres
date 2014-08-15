@@ -40,41 +40,9 @@ ddf <- as.data.frame(ddf)
 names(ddf) <- c('degree rank') 
 ddf
 ```
-Contents
+Download
 ========================================================
 
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
+Download Graph Explorer at:
 
-- Eerste bullet
-- Tweede bullet 
-- Derde bullet
-
-
-
-
-
-
-
-Slide With Plot
-========================================================
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-Graph example
-========================================================
-```{r, echo=FALSE}
-library(igraph)
-a <- c('Donald Duck','Goofey','Minnie Mouse','Donald Duck','Goofey')
-b <- c('Mickey Mouse','Minnie Mouse','Mickey Mouse','Minnie Mouse')
-c <- as.data.frame(cbind(a,b))
-g <- graph.data.frame(c)
-V(g)$size=degree(g)*10
-V(g)$color=degree(g)+1
-V(g)$label.cex <- degree(g)
-set.seed(111)
-layout1 <- layout.fruchterman.reingold(g)
-plot(g, layout = layout1) 
-```
+- https://github.com/digistam/ShinyProject
