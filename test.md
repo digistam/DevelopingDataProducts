@@ -1,15 +1,17 @@
 Graph Explorer
 ========================================================
 author: Mark Stam
-date: Sat Aug 16 16:24:18 2014
+date: Sat Aug 16 16:34:53 2014
 transition:rotate
 font-family: 'Trebuchet MS'
+
+A web application running on __Shiny server__
 
 Social Network Analysis
 ========================================================
 Social network analysis (SNA) is the use of network theory to analyse social networks. Social network analysis views social relationships in terms of network theory, consisting of nodes, representing individual actors within the network. These networks are often depicted in a Graph, where __nodes__ (or _vertices_) are represented as points and __edges__ are represented as lines.
 
-The __Graph explorer__, a web application running on __Shiny server__, takes a CSV file with nodes as input. The output is a visual analysis of connections and degrees. All you need is RStudio and the __shiny__ and __igraph libraries__.
+__Graph explorer__, a web application running on __Shiny server__, takes a CSV file with nodes as input. The output is a visual analysis of connections and degrees. All you need is RStudio and the __shiny__ and __igraph libraries__.
 Example
 ========================================================
 ![csv file](csv.jpg)
@@ -19,8 +21,8 @@ example csv file and Graph output
 
 Graph information
 ========================================================
-The Graph explorer will show some important details about the network,
-like who's connected to who and which nodes have an higher degree than other nodes
+Graph explorer will show some important details about the network,
+like who's connected to who and which nodes have an higher degree than other nodes. 
 
 ```
        Donald Goofy Minnie Mickey
@@ -46,4 +48,4 @@ Download Graph Explorer at:
 
 Graph Explorer has been built during the ___Developing Data Products___ course of ___Johns Hopkins University___ on Coursera.
 
-Mark Stam, Sat Aug 16 16:24:20 2014
+Mark Stam, Sat Aug 16 16:34:55 2014
