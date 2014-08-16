@@ -11,7 +11,8 @@ Social Network Analysis
 ========================================================
 Social network analysis (SNA) is the use of network theory to analyse social networks. Social network analysis views social relationships in terms of network theory, consisting of nodes, representing individual actors within the network. These networks are often depicted in a Graph, where __nodes__ (or _vertices_) are represented as points and __edges__ are represented as lines.
 
-__Graph explorer__, a web application running on __Shiny server__, takes a CSV file with nodes as input. The output is a visual analysis of connections and degrees. All you need is RStudio and the __shiny__ and __igraph libraries__.
+__Graph explorer__, a web application running on the __Shiny server__ framework, takes a CSV file with nodes as input. The output is a visual analysis of connections and degrees.
+
 Example
 ========================================================
 ![csv file](csv.jpg)
@@ -49,6 +50,10 @@ ddf
 ```
 Download
 ========================================================
+
+Run Graph Explorer on-line:
+
+- http://digistam.shinyapps.io/GraphExplorer
 
 Download Graph Explorer at:
 
